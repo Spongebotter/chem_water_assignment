@@ -1,0 +1,416 @@
+/* NAV styling */
+
+html {
+  max-width: 100%;
+  position: relative;
+
+  background-color: #efefef;
+  overflow-x: hidden;
+
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  padding-top: 15px;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar-fixed {
+  position: fixed;
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  height: 70px;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  background-color: #ffffff;
+  z-index: 4;
+  align-items: center;
+  display: flex;
+}
+
+nav img {
+  width: auto;
+  height: 50px;
+  margin-left: 30px;
+  margin-right: -80px;
+}
+
+
+.sections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 700px;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+nav a {
+      justify-content:  space-between;
+}
+
+#rectangle{
+  width:100%;
+  height:275px;
+  background:rgba(0, 0, 0, 0.42);
+  z-index: 3;
+  position: absolute;
+  margin-top: -600px;
+  border-radius: 10px;
+
+
+}
+
+/*  HOME PAGE  */
+.home {
+  max-width: 100%;
+  position: absolute;
+  width: 100%;
+  height: 740px;
+  left: 0px;
+  top: 0px;
+
+}
+
+
+
+h1 {
+  margin-top: 20px;
+  margin-left: 100px;
+  z-index: 3;
+  /* Space */
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 79px;
+  /* or 79px */
+
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+h2 {
+  margin-left: 100px;
+  margin-top: -50px;
+
+  z-index: 3;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 79px;
+  /* or 33px */
+
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.author {
+  display: flex;
+  margin-top: -60px;
+  margin-left: 100px;
+}
+
+.author img {
+  padding-top: 10px;
+  width: auto;
+  height: 30px;
+}
+
+.author p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  padding-left:10px;
+  font-weight: 200;
+
+
+}
+
+.home_img {
+  padding-top: 50px;
+  width:100%
+
+
+}
+
+.home_img img {
+  position: relative;
+  width:100%;
+  margin-right: 100px;
+
+}
+
+
+/* About */
+
+.about {
+  position: absolute;
+  width: 100%;
+  height: 740px;
+  left: 0px;
+  top: 700px;
+  padding-bottom: 30px;
+
+}
+
+.about h1 {
+  color: #000000;
+  font-family: Georgia,Times New Roman,Times,serif;
+  font-weight: 600;
+  font-size: 38pt;
+  margin-top: 150px;
+}
+
+
+.about p {
+  color: #333;
+  font-family: Georgia,Times New Roman,Times,serif;
+  font-weight: 400;
+  font-size: 14pt;
+  line-height: 1.632;
+  letter-spacing: .1px;
+  width: 600px;
+  margin-left: 100px;
+
+}
+
+.img_map {
+  width:100%;
+  height:275px;
+  background:rgba(0, 0, 0, 0.42);
+  z-index: 3;
+  position: absolute;
+  border-radius: 10px;
+  margin-left: 900px;
+  bottom: 100px;
+
+}
+
+.img_flag {
+  width:100%;
+  height:275px;
+  background:rgba(0, 0, 0, 0.42);
+  z-index: 3;
+  position: absolute;
+  border-radius: 10px;
+  margin-left: 800px;
+  bottom: 400px;
+  
+
+}
+
+.img_flag img {
+  width: auto;
+  height: 150px;
+  position: absolute;
+  right: 950px;
+  padding-top: 50px;
+  margin-left: 200px;
+
+
+
+}
+.img_map img {
+  width: auto;
+  height: 200px;
+  position: absolute;
+  right: 1000px;
+  padding-top: 40px;
+
+
+}
+
+
+
+#team {
+  position: absolute;
+  width: 100%;
+  height: 21px;
+  left: 0px;
+  top: 1400px;
+  background: #efefef;
+  z-index: -3;
+}
+
+.teams h1 {
+  color: #000000;
+  font-family: Georgia,Times New Roman,Times,serif;
+  font-weight: 600;
+  font-size: 38pt;
+  margin-top: 100px;
+  text-align: center;
+  margin-right: 75px;
+}
+
+.facts_pollutants p {
+  color: #333;
+  font-family: Georgia,Times New Roman,Times,serif;
+  font-weight: 400;
+  font-size: 12pt;
+  line-height: 1.632;
+  letter-spacing: .1px;
+  width: 800px;
+  margin-left: 50px;
+
+}
+
+  #team li {
+    color: #333;
+    font-family: Georgia,Times New Roman,Times,serif;
+    font-weight: 400;
+    font-size: 12pt;
+    line-height: 1.632;
+    letter-spacing: .1px;
+    width: 1250px;
+    margin-left: 30px;
+    padding: 10px;
+
+  }
+  .img_group {
+    align-items: center;
+    position: absolute;
+    left: 900px;
+    top: 230px;
+  }
+
+  .img_group img {
+    width: auto;
+    height: 250px;
+    box-shadow:10px 10px 10px #999;
+    border-radius: 5px;
+  }
+
+  .img_group p {
+    font-family: Georgia,Times New Roman,Times,serif;
+    font-weight: 500;
+    font-size: 12pt;
+    line-height: 1.632;
+    letter-spacing: .1px;
+  }
+
+
+
+  
+
+.faq {
+  position: absolute;
+  width: 100%;
+  height: 660px;
+  left: 0px;
+  top: 2100px;
+}
+
+.faq h1 {
+  color: #000000;
+  font-family: Georgia,Times New Roman,Times,serif;
+  font-weight: 600;
+  font-size: 38pt;
+  margin-top: 100px;
+}
+
+.faq p {
+  color: #333;
+  font-family: Georgia,Times New Roman,Times,serif;
+  font-weight: 400;
+  font-size: 12pt;
+  line-height: 1.632;
+  letter-spacing: .1px;
+  text-align: center;
+  width: 1250px;
+  margin-left: 40px;
+
+}
+
+.faq img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+} 
+
+
+
+.issues {
+  position: absolute;
+  width: 100%;
+  top: 2700px;
+  left: 0px;
+  height: 500px;
+
+
+}
+
+.issues h1 {
+  color: #000000;
+  font-family: Georgia,Times New Roman,Times,serif;
+  font-weight: 600;
+  font-size: 38pt;
+  margin-top: 100px;
+  text-align: center;
+  margin-right: 75px;
+}
+
+.issues p {
+  color: #333;
+  font-family: Georgia,Times New Roman,Times,serif;
+  font-weight: 400;
+  font-size: 12pt;
+  line-height: 1.632;
+  letter-spacing: .1px;
+  width: 600px;
+  margin-left: 70px;
+}
+
+.issues img{
+  width:auto;
+  height:275px;
+  background:rgba(0, 0, 0, 0.42);
+  position: absolute;
+  border-radius: 10px;
+  margin-left: 800px;
+  box-shadow:10px 10px 10px #999;
+  top: 230px;
+}
+
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  top: 3500px;
+  background-color: #16171b;
+  font-family: Orbitron;
+  z-index: 3;
+
+}
+
+.ftr-text p {
+  padding-top: 10px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+
+
+}
